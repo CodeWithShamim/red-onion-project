@@ -6,8 +6,9 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home/Home/Home";
 // import FoodDetail from "./Pages/Home/Foods/FoodDetail";
 import Breakfast from "./Pages/Home/Foods/Breakfast/Breakfast";
-import Lunch from "./Pages/Home/Foods/Lunch";
-import Dinner from "./Pages/Home/Foods/Dinner";
+import Lunch from "./Pages/Home/Foods/Lunch/Lunch";
+import Dinner from "./Pages/Home/Foods/Dinner/Dinner";
+import Footer from "./Pages/Shared/Footer";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <Route path="/dinner" element={<Dinner></Dinner>}></Route>
         </Route>
       </Routes>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 }

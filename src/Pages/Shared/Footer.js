@@ -5,7 +5,7 @@ const Footer = () => {
     <div
       className="py-3"
       style={{
-        position: "fixed",
+        position: "sticky",
         left: 0,
         bottom: 0,
         right: 0,

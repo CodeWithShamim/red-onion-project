@@ -1,13 +1,13 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Banner from "../Banner/Banner";
-import Foods from "../Foods/Foods";
+import FoodsHeader from "../Foods/FoodsHeader";
 
 const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      <Foods></Foods>
+      <FoodsHeader></FoodsHeader>
       <Outlet></Outlet>
     </div>
   );
