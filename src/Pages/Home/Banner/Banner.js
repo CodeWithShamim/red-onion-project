@@ -3,7 +3,7 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div>
+    <div className="mb-5">
       <div className="banner-section d-flex justify-content-center align-items-center flex-column">
         <h2>Best food waiting for your belly</h2>
 
